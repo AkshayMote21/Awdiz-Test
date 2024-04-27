@@ -1,0 +1,533 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+#fullpage{
+    
+    height: 6000px;
+   
+}
+#nav1Parent{
+    background-color:rgb(242,242,242) ;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#nav1{
+    /* border: 2px solid black; */
+    width: 98%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242,242,242);
+    align-items: center;
+    margin: auto;
+    /* padding-left: 20px; */
+}
+#responsive{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14%;
+    margin-right: 130px;
+}
+#nav2{
+    /* border: 2px solid black; */
+    width: 76%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#socialMedia{
+    /* border: 1px solid; */
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+#face{
+    /* border: 1px solid; */
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(59,89,152);
+    color: white;
+    font-size:x-large;
+    font-weight: bold;
+
+}
+#twit{
+    /* border: 1px solid; */
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(85,172,238);
+}
+#insta{
+    /* border: 1px solid; */
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(197,54,164);
+}
+#backgroundImg{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg");
+    height:850px;
+    width: 100%;
+    background-size: cover;
+}
+#greenBox{
+    position: relative;
+    top: 200px;
+    left: 750px;
+    height: 450px;
+    width: 585px;
+    background-color: rgb(180,189,155);
+}
+#whiteBox{
+    position: absolute;
+    top: 380px;
+    left: 630px;
+    height: 350px;
+    width: 650px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#whiteBox > p:nth-child(1){
+    font-size: 24px;
+    width: 90%;
+    margin: auto;
+    margin-top:50px ;
+    color: rgb(31,31,31);
+}
+#whiteBox > p:nth-child(2){
+    font-size: 60px;
+    font-weight:100;
+    width: 90%;
+    margin: auto;
+    margin-top:15px ;
+    color: rgb(42,42,42);
+    
+}
+#whiteBox > p:nth-child(3){
+    font-size: 60px;
+    font-weight:100;
+    width: 90%;
+    margin: auto;
+    margin-top:-15px ;
+    color: rgb(42,42,42);
+    
+}
+#whiteBox > p:nth-child(4){
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+    margin-top:19px ;
+    color: rgb(47,47,47);
+    
+}
+#div2subs{
+    height: 1047px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    width:75% ;
+    margin: auto;
+}
+
+#leftDiv{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    width: 48%;
+}
+#leftDiv > h1{
+    font-size: 48px;
+    margin-top: 20px;
+}
+#leftDiv :nth-child(3){
+    font-size: 18px;
+    margin-top: 20px;
+    width: 90%;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    color: rgb(53,53,53);
+}
+#leftDiv :nth-child(4){
+    font-size: 18px;
+    margin-top:19px ;
+}
+
+#rightDiv{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    width: 48%;
+}
+#imgRight{
+    background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/f82f15087c19565f99555fe5/texture-min.png");
+    background-image: cover;
+    height: 450px;
+    width: 395px;
+    
+    float: right;
+}
+#imgRightOver{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d55ac6f33a275ea2b9ba06e9/g.jpg");
+    /* background-image: contain; */
+    height: 437px;
+    width: 437px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 55px;
+    background-size: contain;
+}
+#rightDiv :nth-child(3){
+    font-size: 18px;
+    margin-top: 120px;
+    width: 90%;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    color: rgb(53,53,53);
+}
+#rightDiv :nth-child(4){
+    /* border-color: rgb(137,152,99); */
+    margin-top: 30px;
+    padding: 12px 44px 12px 44px;
+    font-size: large;
+    font-weight: 600;
+    background-color: white;
+    border: 3px solid rgb(137,152,99);
+}
+#learn:hover {
+    color: white;
+    background-color: rgb(137,152,99);   
+}
+
+#threeImgs{
+    /* border: 2px solid; */
+    height: 720px;
+    width: 75% ;
+    margin: auto;
+}
+#upper{
+    width: 100%;
+    height: 240px;
+    /* border: 2px solid; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#number1{
+    color: white;
+    background-color: rgb(106,124,62);
+    height:183px ;
+    width: 183px;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+#text1{
+    font-size: 48px;
+    font-weight: bold;
+    width: 78%;
+}
+#lower{
+    display: flex;
+    justify-content: space-between;
+
+}
+#img1{
+    width: 362px;
+    height: 373px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/5646.jpg");
+    background-size:cover;
+    background-position: center;
+    /* object-fit:cover; */
+    
+}
+#img2{
+    width: 362px;
+    height: 373px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-cup-of-couple-6633450.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#img3{
+    width: 362px;
+    height: 373px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/56456.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#latestProjects{
+    width: 75%;
+    height: 1000px;
+    /* border: 2px solid rebeccapurple; */
+    margin: auto;
+}
+#heading{
+    font-size: 48px;
+    margin-top: 20px;
+    text-align: center;
+}
+#text2{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(68,68,68);
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.blank1{
+    width: 263px;
+    height: 222px;
+}
+
+#images1{
+    background-image: url("https://images01.nicepagecdn.com/67/6b/676b13d38454f01eafb6d8d873761e17.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 263px;
+    height: 222px;
+}
+#images2{
+    background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/62b5fd1f937050ef8bd0a63d/51e9d44b4856b108f5d08460962934761237d6ed5a4c704c72297bd2914bcd5a_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 556px;
+    height: 470px;
+}
+#images3{
+    background-image: url("https://images01.nicepagecdn.com/d3/0e/d30ef3549739acd770d4fe2643ec3ded.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 556px;
+    height: 470px;
+    margin-top: -225px;
+}
+#images4{
+    background-image: url("https://images01.nicepagecdn.com/af/d3/afd377e224603dfabddc6e7d688b1eb8.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 263px;
+    height: 222px;
+    margin-top: 25px;
+}
+
+
+#threeImgs2{
+    /* border: 2px solid; */
+    height: 765px;
+    width: 75% ;
+    margin: auto;
+    /* margin-top: -50px; */
+}
+#upper2{
+    width: 100%;
+    height: 240px;
+    /* border: 2px solid; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#number12{
+    color: white;
+    background-color: rgb(106,124,62);
+    height:183px ;
+    width: 183px;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+#text12{
+    font-size: 48px;
+    font-weight: bold;
+    width: 78%;
+}
+#lower2{
+    display: flex;
+    justify-content: space-between;
+
+}
+#img12{
+    width: 362px;
+    height: 373px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg");
+    background-size:cover;
+    background-position: center;
+    /* object-fit:cover; */
+    
+}
+#img22{
+    width: 362px;
+    height: 373px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#img32{
+    width: 362px;
+    height: 373px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#lastDiv{
+    width: 100%;
+    height: 803px;
+    /* border: 1px solid; */
+}
+#greenDiv{
+    margin-top: 246px;
+    height: 228px;
+    background-color: rgb(202,209,182);
+}
+/* #box{
+    height:717px ;
+    width:1140px ;
+    border: 1px solid red;
+    margin: auto;
+} */
+#lastImage{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 501px;
+    height: 657px;
+    position: relative;
+    top: -150px;
+    left: 720px;
+}
+#box{
+    position: relative;
+    top: -320px;
+    left: 300px;
+    height: 496px;
+    width: 512px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+}
+#box >h1 {
+    font-size: 48px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#form{
+    width: 86%;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+}
+/* #form > hr{
+    height: 2px;
+    
+    background-color: black;
+    outline: none;
+    border: none;
+} */
+#one{
+    height: 2px;
+    /* color:black; */
+    background-color: black;
+    outline: none;
+    border: none;
+}
+#two{
+    height: 2px;
+    /* color:black; */
+    background-color: black;
+    outline: none;
+    border: none;
+}
+#three{
+    height: 2px;
+    /* color:black; */
+    background-color: black;
+    outline: none;
+    border: none;
+}
+#name{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    width: 95%;
+    padding: 10px 12px;
+    font-size: 16px;
+    /* color: rgb(134,134,134); */
+}
+#email{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    width: 95%;
+    padding: 10px 12px;
+    font-size: 16px;
+    /* color: rgb(134,134,134); */
+    padding-top: 25px;
+}
+#textarea{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    width: 94%;
+    padding: 10px 12px;
+    font-size: 16px;
+    /* color: rgb(134,134,134); */
+    padding-top: 25px;
+    
+}
+::placeholder{
+    color: rgb(134,134,134);
+}
+#submitB{
+    width:100% ;
+    margin-top: 10px;
+    background-color: rgb(107,126,60);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 0;
+    letter-spacing: 2px;
+}
+#textFreepik{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -135px;
+}
+#footer{
+    border: 2px solid black;
+    width: 99%;
+    height: 387px;
+    margin: auto;
+    margin-top: -120px;
+}

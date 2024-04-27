@@ -6,119 +6,7 @@
     <title>nicepage</title>
     
     <script src="https://kit.fontawesome.com/38e700c3a6.js" crossorigin="anonymous"></script>
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            font-family:Arial, Helvetica, sans-serif;
-        }
-        #fullpage{
-            
-            height: 3000px;
-           
-        }
-        #nav1Parent{
-            background-color:rgb(242,242,242) ;
-            position: sticky;
-            top: 0;
-            left: 0;
-        }
-        #nav1{
-            /* border: 2px solid black; */
-            width: 98%;
-            height: 70px;
-            display: flex;
-            justify-content: space-between;
-            background-color: rgb(242,242,242);
-            align-items: center;
-            margin: auto;
-            /* padding-left: 20px; */
-        }
-        #responsive{
-            /* border: 2px solid black; */
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 14%;
-            margin-right: 130px;
-        }
-        #nav2{
-            /* border: 2px solid black; */
-            width: 76%;
-            height: 70px;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        #socialMedia{
-            /* border: 1px solid; */
-            width: 13%;
-            display: flex;
-            justify-content: space-between;
-        }
-        #face{
-            /* border: 1px solid; */
-            border-radius: 50%;
-            height: 27px;
-            width: 27px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-            background-color: rgb(59,89,152);
-            color: white;
-            font-size:x-large;
-            font-weight: bold;
-        
-        }
-        #twit{
-            /* border: 1px solid; */
-            border-radius: 50%;
-            height: 27px;
-            width: 27px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-            background-color: rgb(85,172,238);
-        }
-        #insta{
-            /* border: 1px solid; */
-            border-radius: 50%;
-            height: 27px;
-            width: 27px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-            background-color: rgb(197,54,164);
-        }
-        #backgroundImg{
-            background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg");
-            height:850px;
-            width: 100%;
-            background-size: cover;
-        }
-        #greenBox{
-            position: relative;
-            top: 200px;
-            left: 750px;
-            height: 450px;
-            width: 585px;
-            background-color: rgb(180,189,155);
-        }
-        #whiteBox{
-            position: absolute;
-            top: 380px;
-            left: 630px;
-            height: 350px;
-            width: 650px;
-            background-color: white;
-            
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <div id="fullpage">
@@ -129,7 +17,7 @@
             </div>
             <div id="responsive">
                 <div id="desktop">
-                    <img src="https://csite.nicepage.com/Images/Site/responsive-desktop.png" alt="desktop" />
+                   <link /> <img src="https://csite.nicepage.com/Images/Site/responsive-desktop.png" alt="desktop" />
                 </div>
                 <div id="laptop">
                     <img src="https://csite.nicepage.com/Images/Site/responsive-laptop.png" alt="laptop" />
@@ -137,9 +25,9 @@
                 <div id="laptop">
                     <img src="https://csite.nicepage.com/Images/Site/responsive-tablet.png" alt="laptop" />
                 </div>
-                <div id="mobile1">
+                <!-- <div id="mobile1">
                     <img src="https://csite.nicepage.com/Images/Site/responsive-phone-horizontal.png" alt="mobile1" />
-                </div>
+                </div> -->
                 <div id="mobile2">
                     <img src="https://csite.nicepage.com/Images/Site/responsive-phone.png" alt="mobile2" />
                 </div>
@@ -164,10 +52,104 @@
         </div>
    </div>
    <div id="body">
+        <!-- DIV 1 of Body Tag : big background image-->
         <div id="backgroundImg">
             <div id="greenBox"></div>
-            <div id="whiteBox"></div>
+            <div id="whiteBox">
+                <p>INTERIOR STUDIO</p>
+                <p>Home is not a </p>
+                <p>place it's a feeling</p>
+                <p>Image from <a style="color: rgb(47,47,47);" href="https://www.freepik.com/" >Freepik</a></p>
+            </div>
         </div>
+        <!-- DIV 2 of Body Tag : 2 sub divs-->
+        <div id="div2subs">
+            <div id="leftDiv"> 
+                <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/73196f530b0d5473be31e0b9/gggg.jpg" height="555px" width="545px" alt="img1" />
+                <h1>Interior Design and Space Planning</h1>
+                <p>In dictum non consectetur a erat nam at. Turpis egestas maecenas pharetra convallis posuere morbi. Scelerisque purus semper eget duis. Dui id ornare arcu odio ut sem nulla pharetra.</p>
+                <p>Images from 
+                    <a style="color:rgb(53,53,53) ;" href="https://www.freepik.com/" >Freepik</a>
+                </p>
+            </div>
+            <div id="rightDiv">
+                <div id="imgRight"></div>
+                <div id="imgRightOver"></div>
+                <p>Quis commodo odio aenean sed. Risus viverra adipiscing at in tellus integer feugiat scelerisque varius. Sit amet aliquam id diam. Eget dolor morbi non arcu risus quis varius quam. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Urna id volutpat lacus laoreet.</p>
+                <button id="learn">LEARN MORE</button>
+            </div>
+       
+        </div>
+    
+        <!-- DIV 3 of Body Tag : 3 images-->
+        <div id="threeImgs">
+            <div id="upper">
+                <div id="number1">01</div>
+                <div id="text1">
+                    We can envision a new fresh look for your apartment, house, office or practice.
+                </div>
+            </div>
+            <div id="lower">
+                <div id="img1" ></div>
+                <div id="img2" ></div>
+                <div id="img3" ></div>
+            </div>
+        </div>
+
+        <!-- DIV 4 of Body Tag : latest projects-->
+        <div id="latestProjects">
+            <h1 id="heading">Latest Projects</h1>
+            <p id="text2">Phasellus scelerisque sed leo quis gravida. Fusce lobortis libero ut arcu blandit pharetra.</p>
+            <div id="images" >
+                <div class="blank1" ></div>
+                <div id="images1" ></div>
+                <div id="images2" ></div>
+                <div id="images3" ></div>
+                <div id="images4" ></div>
+                <div class="blank1" ></div>
+            </div>
+        </div>
+
+        <!-- DIV 5 of Body Tag : 3 imgaes part 2-->
+
+        <div id="threeImgs2">
+            <div id="upper2"> 
+                <div id="text12">
+                    We combine design classics, curated pieces from international furniture shows.
+                </div>
+                <div id="number12">02</div>
+            </div>
+            <div id="lower2">
+                <div id="img12" ></div>
+                <div id="img22" ></div>
+                <div id="img32" ></div>
+            </div>
+        </div>
+
+        <!-- DIV 6 of Body Tag : contact us-->
+        <div id="lastDiv">
+           
+            <div id="greenDiv" > 
+                <div id="lastImage"></div>
+            </div>
+            <div id="box">
+                <h1>Contact Us</h1>
+                <form id="form">
+                    <input type="text" id="name" name="name" placeholder="Enter your Name" required/>
+                    <hr id="one"/>
+                    <input type="email" id="email" name="email" placeholder="Enter a valid email address" required/>
+                    <hr id="two"/>
+                    <textarea rows="6" id="textarea" name="textarea" placeholder="Enter your message" required ></textarea>
+                    <hr id="three"/>
+                    <button id="submitB">SUBMIT</button>
+                </form>
+            </div>
+            <p id="textFreepik">Images from 
+                <a style="color:rgb(53,53,53) ;" href="https://www.freepik.com/" >Freepik</a>
+            </p>
+
+        </div>
+
 
    </div>
    <div id="footer">footer</div>
